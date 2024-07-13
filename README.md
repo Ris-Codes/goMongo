@@ -40,3 +40,8 @@ The API runs on port 9090 by default. You can access the API endpoints using a t
 ## MongoDB Connection
 
 The API connects to a local MongoDB instance on port 27017. You can modify the connection string in the `init()` function to connect to a different MongoDB instance.
+
+## Testing
+```sh
+go test -v ./...
+```
